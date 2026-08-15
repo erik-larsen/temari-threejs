@@ -1,0 +1,29 @@
+{
+  "id": "uzumaki",
+  "name": "Uzumaki — blue whirlpools",
+  "source": "reference/A Huge Collection of Embroidered Temari Spheres by an 88-Year-Old Grandmother — Colossal_files/temari-1_UZrM.jpg",
+  "note": "After the blue hexagon-field ball: a tamentai 122 division where every cell is wound inward with a twist, so nested stars become spirals.",
+  "division": "T122",
+  "mari": "#0d1b2e",
+  "marking": { "visible": true, "color": "#2b4a6b", "linewidth": 1 },
+  "stitches": [
+    {
+      "type": "hoshi",
+      "color": "#1e6fb5",
+      "linewidth": 2.2,
+      "params": { "centers": 6, "rounds": 8, "start": 0.92, "step": -0.1, "skip": 1, "twist": 0.22, "layerStart": 1, "colorKey": "swirl-deep" }
+    },
+    {
+      "type": "hoshi",
+      "color": "#a8cfe8",
+      "linewidth": 1.8,
+      "params": { "centers": 6, "rounds": 8, "start": 0.87, "step": -0.1, "skip": 1, "twist": 0.22, "layerStart": 2, "colorKey": "swirl-pale" }
+    },
+    {
+      "type": "hoshi",
+      "color": "#e8f1f7",
+      "linewidth": 2.2,
+      "params": { "centers": 5, "rounds": 8, "start": 0.92, "step": -0.1, "skip": 1, "twist": 0.22, "layerStart": 1, "colorKey": "swirl-penta" }
+    }
+  ]
+}

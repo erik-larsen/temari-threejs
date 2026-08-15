@@ -1,0 +1,29 @@
+{
+  "id": "homura",
+  "name": "Homura — embers on black",
+  "source": "reference/A Huge Collection of Embroidered Temari Spheres by an 88-Year-Old Grandmother — Colossal_files/temari-2_UZrM.jpg",
+  "note": "After the black ball with red kiku bursts and green marking lines (lower right of the four-ball photo).",
+  "division": "C10",
+  "mari": "#15121b",
+  "marking": { "visible": true, "color": "#6fae5c", "linewidth": 1.4 },
+  "stitches": [
+    {
+      "type": "kiku",
+      "color": "#d63a1f",
+      "linewidth": 3,
+      "params": { "rounds": 5, "start": 0.24, "step": 0.09, "depth": 0.14, "layerStart": 1, "colorKey": "kiku-red" }
+    },
+    {
+      "type": "kiku",
+      "color": "#f0932c",
+      "linewidth": 2.4,
+      "params": { "rounds": 3, "start": 0.28, "step": 0.09, "depth": 0.14, "layerStart": 6, "colorKey": "kiku-orange" }
+    },
+    {
+      "type": "hoshi",
+      "color": "#efe469",
+      "linewidth": 1.8,
+      "params": { "centers": 6, "rounds": 2, "start": 0.5, "step": -0.14, "skip": 2, "layerStart": 9, "colorKey": "hoshi-yellow" }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "shion",
+  "name": "Shion — kiku on red",
+  "source": "reference/3624333878_b61104f03b_o.jpg",
+  "note": "After the red NanaAkua ball: layered white/teal/pink chrysanthemums at the ten-point centres of a C10, gold stars between them.",
+  "division": "C10",
+  "mari": "#8f1c22",
+  "marking": { "visible": true, "color": "#c9a35a", "linewidth": 1.1 },
+  "stitches": [
+    {
+      "type": "kiku",
+      "color": "#f3eee4",
+      "linewidth": 3.2,
+      "params": { "rounds": 4, "start": 0.3, "step": 0.09, "depth": 0.15, "layerStart": 1, "colorKey": "kiku-white" }
+    },
+    {
+      "type": "kiku",
+      "color": "#177f78",
+      "linewidth": 2.6,
+      "params": { "rounds": 4, "start": 0.34, "step": 0.09, "depth": 0.15, "layerStart": 5, "colorKey": "kiku-teal" }
+    },
+    {
+      "type": "kiku",
+      "color": "#e8798c",
+      "linewidth": 2.2,
+      "params": { "rounds": 2, "start": 0.2, "step": 0.09, "depth": 0.12, "layerStart": 9, "colorKey": "kiku-pink" }
+    },
+    {
+      "type": "hoshi",
+      "color": "#d8b95e",
+      "linewidth": 1.6,
+      "params": { "centers": 6, "rounds": 1, "start": 0.62, "skip": 2, "layerStart": 11, "colorKey": "hoshi-gold" }
+    }
+  ]
+}
