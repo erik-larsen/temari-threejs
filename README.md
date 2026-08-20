@@ -55,3 +55,5 @@ homura (embers on black), botan (sunrise peony with obi).
 - [TemariKai](https://www.temarikai.com) — division and stitch documentation
 - Giuffre & Stemkoski, *Virtual Temari*, J. Humanistic Mathematics 10(2), 2020
 - NanaAkua's [Flickr album](https://flickr.com/photos/31012828@N04/albums/72157617114284128/)
+  — photographs © NanaAkua, [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/);
+  see [reference/README.md](reference/README.md) for attribution details
