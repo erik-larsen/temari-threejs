@@ -12,6 +12,28 @@ grandmother. They are licensed
 - Source album: https://flickr.com/photos/31012828@N04/albums/72157617114284128/
 - Photographer: https://www.flickr.com/photos/nanaakua/
 
+`nanaakua-temari-album/` (gitignored, ~1 GB) holds the full 468-photo album
+at original resolution under the same license, as `flickr_{id}.jpg` with a
+`.json` sidecar carrying Flickr's title, upload date, dimensions, and source
+URL.
+
+Re-fetching is a two-step job. `gallery-dl` handles the Flickr API fine
+(listing every photo's original URL and metadata), but its own downloader
+gets HTTP 429 from Flickr's image CDN on every request — regardless of
+User-Agent, cookies, or HTTP version — while `curl` fetches the same URLs
+without complaint, so the transfers go through `curl`:
+
+```bash
+gallery-dl -j "https://www.flickr.com/photos/31012828@N04/albums/72157617114284128/" > /tmp/album.json
+```
+
+```bash
+python3 reference/fetch-album.py /tmp/album.json reference/nanaakua-temari-album
+```
+
+The script skips files already on disk, paces requests, retries with backoff,
+and writes the sidecars in gallery-dl's own layout.
+
 Per the NoDerivatives term, do not publish cropped, recolored, or otherwise
 modified versions of these images. The viewer's presets are original designs
 made after studying the photographs; the photos themselves are never bundled
